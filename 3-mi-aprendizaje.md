@@ -14,9 +14,7 @@ Aprendí a escribir y estructurar correctamente archivos `docker-compose.yml` pa
 Al configurar correctamente el mapeo de puertos y volúmenes, pude mejorar la accesibilidad de los servicios desde el host y garantizar la persistencia de los datos en caso de reinicios, lo que facilita la gestión de aplicaciones de larga duración.
 
 **4. Solución de Problemas:**  
-
-Durante el desarrollo de la práctica, me encontré con diversos desafíos, tales como errores en la configuración del archivo compose.yaml y dificultades de conectividad entre los servicios definidos. Estos problemas afectaban la comunicación entre los contenedores, lo que generaba fallos en el funcionamiento de la aplicación. Para resolverlos, recurrí a herramientas y comandos de Docker que me permitieron obtener información detallada sobre el estado de los contenedores y los logs de ejecución. Comandos como docker logs y docker-compose ps fueron fundamentales para identificar los puntos de fallo y diagnosticar las causas de los errores. Este proceso de depuración no solo me permitió corregir los problemas específicos, sino que también mejoró mis habilidades para abordar y resolver de manera más eficiente cualquier incidencia en proyectos futuros.
-
+Durante el desarrollo de la práctica, me encontré con diversos desafíos, tales como errores en la configuración del archivo `compose.yaml` y dificultades de conectividad entre los servicios definidos. Estos problemas afectaban la comunicación entre los contenedores, lo que generaba fallos en el funcionamiento de la aplicación. Para resolverlos, recurrí a herramientas y comandos de Docker que me permitieron obtener información detallada sobre el estado de los contenedores y los logs de ejecución. Comandos como `docker logs` y `docker-compose ps` fueron fundamentales para identificar los puntos de fallo y diagnosticar las causas de los errores. Este proceso de depuración no solo me permitió corregir los problemas específicos, sino que también mejoró mis habilidades para abordar y resolver de manera más eficiente cualquier incidencia en proyectos futuros. 
 
 ---
 
