@@ -17,9 +17,10 @@ services:
       interval: 30s
       timeout: 10s
       retries: 5
+    restart: always  # Política de reinicio para garantizar que el contenedor se reinicie si falla
 
   sonarqube:
-    image: sonarqube:latest
+    image: sonarqube:latest  # Puedes especificar una versión en lugar de "latest"
     container_name: sonarqube-container
     environment:
       SONARQUBE_JDBC_URL: jdbc:postgresql://postgres-container:5432/sonarqube
@@ -42,6 +43,7 @@ services:
     depends_on:
       postgresql:
         condition: service_healthy
+    restart: always  # Política de reinicio para asegurar que SonarQube siempre se reinicie si falla
 
 volumes:
   postgresql-data:
@@ -53,3 +55,4 @@ volumes:
 networks:
   sonarnet:
     driver: bridge
+
